@@ -1,0 +1,34 @@
+.list {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.position {
+    list-style-type: none;
+}
+
+.choice {
+    background-color: #8B0000;
+    border: none;
+    color: #FFFF00;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    padding: 10px 25px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px #666;
+}
+
+.choice:hover {
+    background-color: #B22222;
+    color: white;
+}
+
+.choice:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
